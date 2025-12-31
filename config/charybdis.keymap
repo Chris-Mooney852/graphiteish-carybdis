@@ -69,7 +69,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -88,12 +88,12 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans                  &trans                   &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp LS(LG(LEFT_BRACE))  &kp LS(LG(RIGHT_BRACE))  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN_ARROW          &kp UP_ARROW             &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp PAGE_DOWN           &kp PAGE_UP              &kp END    &trans  &trans
-                        &trans  &trans  &trans    &trans    &trans
-                                &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans           &trans              &trans    &trans                  &trans                   &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &kp C_VOLUME_UP  &kp C_PREV          &trans    &kp LS(LG(LEFT_BRACE))  &kp LS(LG(RIGHT_BRACE))  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &kp C_MUTE       &kp C_PLAY_PAUSE    &kp LEFT  &kp DOWN_ARROW          &kp UP_ARROW             &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &kp C_VOL_DN     &kp C_NEXT          &kp HOME  &kp PAGE_DOWN           &kp PAGE_UP              &kp END    &trans  &trans
+                        &trans  &trans           &trans              &trans    &trans
+                                &trans           &trans              &trans
             >;
         };
 
